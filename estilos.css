@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: rgb(20,20,20);
+}
+
+.menu {
+    position: relative;
+    padding: 18px 50px;
+    background-color: black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
+}
+
+.logo {
+    position: relative;
+    top: 2px;
+    font-family: arial;
+    font-size: 20px;
+    color: rgb(235, 235, 235);
+}
+
+.opcoes-menu {
+    position: relative;
+    left: 100px;
+    right: 0;
+    bottom: 18px;
+    font-family: arial;
+    font-size: 16px;
+    color: rgb(235, 235, 235);
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.opcoes-menu:hover {
+    color: white;
+}
+
+.menu-mobile-icon {
+    display: none;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.opcoes-menu-mobile {
+    display: none;
+}
+
+.capa {
+    position: absolute;
+    pointer-events: none;
+    filter: brightness(80%);
+    box-shadow: 5px 5px 5px rgb(24, 24, 24);
+}
+
+.titulo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 590px;
+    font-family: arial;
+    font-size: 18px;
+    color: white;
+}
+
+.bio {
+    font-size: 16px;
+    color: rgb(228, 228, 228);
+}
+
+.projetos-titulo {
+    position: absolute;
+    left: 0;
+    right: 1170px;
+    text-align: center;
+    top: 700px;
+    font-family: arial;
+    font-size: 20px;
+    color: rgb(235, 235, 235);
+}
+
+.hr-projetos {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 740px;
+    width: 1250px;
+    border-color: rgb(235, 235, 235);
+}
+
+.projetos-lista {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 750px;
+    width: 1280px;
+    padding: 30px;
+    background-color: transparent;
+}
+
+.projetos-capa {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border-radius: 4px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.projetos-capa:hover {
+    filter: brightness(80%);
+    transition: .5s;
+}
+
+.sobre-titulo {
+    position: absolute;
+    left: 0;
+    right: 1190px;
+    text-align: center;
+    top: 1250px;
+    font-family: arial;
+    font-size: 20px;
+    color: rgb(235, 235, 235);
+}
+
+.hr-sobre {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 1290px;
+    width: 1250px;
+    border-color: rgb(235, 235, 235);
+}
+
+.sobre-block {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 1290px;
+    width: 1240px;
+    padding: 20px;
+    text-align: left;
+    background-color: transparent;
+    font-family: arial;
+    font-size: 16px;
+    color: rgb(235, 235, 235);
+}
+
+.contato-titulo {
+    position: absolute;
+    left: 0;
+    right: 1170px;
+    text-align: center;
+    top: 1450px;
+    font-family: arial;
+    font-size: 20px;
+    color: rgb(235, 235, 235);
+}
+
+.hr-contato {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 1490px;
+    width: 1250px;
+    border-color: rgb(235, 235, 235);
+}
+
+.form-block {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 1490px;
+    width: 1250px;
+    padding: 30px;
+    background-color: transparent;
+}
+
+.input-box {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(235, 235, 235);
+    margin-bottom: 15px;
+    background-color: rgb(20,20,20);
+    text-align: center;
+    font-family: arial;
+    font-size: 16px;
+    color: rgb(235, 235, 235);
+}
+
+.input-submit {
+    width: 90px;
+    height: 40px;
+    background-color: rgb(20,20,20);
+    border: 1px solid rgb(235, 235, 235);
+    font-family: arial;
+    font-size: 16px;
+    color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    padding: 30px 50px;
+    top: 1750px;
+    background-color: rgb(46, 46, 46);
+    text-align: center;
+    font-family: arial;
+    font-size: 16px;
+    color: rgb(235, 235, 235);
+}
+
+@media (max-width: 1000px) {
+    .menu {
+        position: relative;
+        padding: 50px 50px;
+        background-color: black;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
+    }
+    
+    .logo {
+        position: relative;
+        top: 2px;
+        font-family: arial;
+        font-size: 50px;
+        color: rgb(235, 235, 235);
+    }
+    
+    .opcoes-menu {
+        display: none;
+    }
+
+    .menu-mobile-icon {
+        display: inline;
+        position: absolute;
+        left: 0;
+        right: 50px;
+        margin-left: auto;
+        top: 50px;
+        fill: white;
+    }
+    
+    .menu-mobile {
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 155px;
+        width: 920px;
+        padding: 30px;
+        background-color: black;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
+    }
+    
+    .opcoes-menu-mobile {
+        display: block;
+        position: relative;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 15px;
+        font-family: arial;
+        font-size: 50px;
+        color: rgb(235, 235, 235);
+        list-style: none;
+        margin-bottom: 30px;
+    }
+
+    .capa {
+        position: absolute;
+        pointer-events: none;
+        filter: brightness(80%);
+        height: 1500px;
+    }
+    
+    .titulo {
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 1350px;
+        font-family: arial;
+        font-size: 60px;
+        color: white;
+    }
+    
+    .bio {
+        font-size: 30px;
+        color: rgb(228, 228, 228);
+    }
+
+    .projetos-titulo {
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 1750px;
+        font-family: arial;
+        font-size: 60px;
+        color: rgb(235, 235, 235);
+    }
+    
+    .hr-projetos {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 1850px;
+        width: 900px;
+        border-color: rgb(235, 235, 235);
+    }
+    
+    .projetos-lista {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 1860px;
+        width: 920px;
+        padding: 30px;
+        background-color: transparent;
+    }
+    
+    .projetos-capa {
+        position: relative;
+        width: 430px;
+        height: 300px;
+        border-radius: 4px;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .sobre-titulo {
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 3400px;
+        font-family: arial;
+        font-size: 60px;
+        color: rgb(235, 235, 235);
+    }
+    
+    .hr-sobre {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 3500px;
+        width: 900px;
+        border-color: rgb(235, 235, 235);
+    }
+    
+    .sobre-block {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 3520px;
+        width: 900px;
+        padding: 20px;
+        text-align: left;
+        background-color: transparent;
+        font-family: arial;
+        font-size: 50px;
+        color: rgb(235, 235, 235);
+    }
+
+    .contato-titulo {
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 4600px;
+        font-family: arial;
+        font-size: 60px;
+        color: rgb(235, 235, 235);
+    }
+    
+    .hr-contato {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 4700px;
+        width: 900px;
+        border-color: rgb(235, 235, 235);
+    }
+    
+    .form-block {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 4730px;
+        width: 900px;
+        padding: 30px;
+        background-color: transparent;
+    }
+    
+    .input-box {
+        width: 100%;
+        height: 100px;
+        border: 1px solid rgb(235, 235, 235);
+        margin-bottom: 20px;
+        background-color: rgb(20,20,20);
+        text-align: center;
+        font-family: arial;
+        font-size: 50px;
+        color: rgb(235, 235, 235);
+    }
+    
+    .input-submit {
+        width: 200px;
+        height: 100px;
+        background-color: rgb(20,20,20);
+        border: 1px solid rgb(235, 235, 235);
+        font-family: arial;
+        font-size: 40px;
+        color: rgb(235, 235, 235);
+        cursor: pointer;
+    }
+
+    footer {
+    position: relative;
+    padding: 70px 50px;
+    top: 5200px;
+    background-color: rgb(46, 46, 46);
+    text-align: center;
+    font-family: arial;
+    font-size: 40px;
+    color: rgb(235, 235, 235);
+    }
+}
